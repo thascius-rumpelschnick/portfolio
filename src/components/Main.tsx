@@ -1,6 +1,3 @@
-import 'materialize-css/dist/css/materialize.min.css';
-import 'materialize-css/dist/js/materialize.min.js';
-
 import { useEffect } from 'react';
 
 import img1 from '../assets/parallax-image.jpg';
