@@ -1,16 +1,11 @@
 import { useEffect } from 'react';
-
+import M from 'materialize-css'
 import img1 from '../assets/parallax-image.jpg';
-import img2 from '../assets/parallax-image2.jpg';
 
 const Main = () => {
 
     useEffect(() => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
-        M.AutoInit();
-
         const elems = document.querySelectorAll('.parallax');
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
         M.Parallax.init(elems);
     });
 
@@ -40,7 +35,7 @@ const Main = () => {
             </div>
 
             <div className="parallax-container">
-                <div className="parallax"><img src={img2}></img></div>
+                <div className="parallax"><img src={img1}></img></div>
                 <div className="content">
                     <h2>Products</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
