@@ -5,13 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   css: {
+    devSourcemap: true,
     preprocessorOptions: {
       scss: {
         additionalData: `$injectedColor: orange;`,
       },
     },
   },
-  build: {
-    sourcemap: true,
-  }
 });
