@@ -1,8 +1,8 @@
 # MD2 - Portfolio
 
-**Concept:**
+**Outcome:**
 
-Module Mediendesign 2 at BHT summer term 2023 web portfolio.
+[Module Mediendesign 2 at BHT summer term 2023 web portfolio.](https://thascius-rumpelschnick.github.io/portfolio/)
 
 ## Styles
 
