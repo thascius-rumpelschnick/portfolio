@@ -36,7 +36,7 @@
 
 $primary-color: color("grey", "lighten-3") !default;
 $primary-color-text: color("grey", "darken-4") !default;
-$primary-color-text-light: color("grey", "darken-2") !default;
+$primary-color-text-light: color("grey", "darken-1") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
@@ -255,10 +255,10 @@ $navbar-brand-font-size: 2.1rem !default;
 // 14. Side Navigation
 // ==========================================================================
 
-$sidenav-width: 300px !default;
-$sidenav-font-size: 14px !default;
-$sidenav-font-color: rgba(0,0,0,.87) !default;
-$sidenav-bg-color: $primary-color-text !default;
+$sidenav-width: 150px !default;
+$sidenav-font-size: 16px !default;
+$sidenav-font-color: $primary-color-text !default;
+$sidenav-bg-color: $primary-color !default;
 $sidenav-padding: 16px !default;
 $sidenav-item-height: 48px !default;
 $sidenav-line-height: $sidenav-item-height !default;
@@ -305,7 +305,8 @@ $toast-action-color: #eeff41;
 // 20. Typography
 // ==========================================================================
 
-$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$font-stack: Lora, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$font-stack-headings: Kanit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;

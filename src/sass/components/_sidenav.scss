@@ -39,7 +39,7 @@
   }
 
   li > a {
-    color: $sidenav-font-color;
+    color: $primary-color-text;
     display: block;
     font-size: $sidenav-font-size;
     font-weight: 500;
@@ -64,7 +64,8 @@
 
     & > i,
     & > [class^="mdi-"], li > a > [class*="mdi-"],
-    & > i.material-icons {
+    & > i.material-icons,
+    & > i.material-symbols-sharp {
       float: left;
       height: $sidenav-item-height;
       line-height: $sidenav-line-height;
@@ -210,7 +211,6 @@
   right: 0;
   opacity: 0;
   height: 120vh;
-  background-color: rgba(0,0,0,.5);
-  z-index: 997;
+  z-index: 996;
   display: none;
 }

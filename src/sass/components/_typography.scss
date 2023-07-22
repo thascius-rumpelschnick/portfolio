@@ -4,26 +4,28 @@ a {
 }
 
 html{
-  line-height: 1.5;
+  line-height: 1.75;
 
   @media only screen and (min-width: 0) {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   @media only screen and (min-width: $medium-screen) {
-    font-size: 14.5px;
+    font-size: 16px;
   }
 
   @media only screen and (min-width: $large-screen) {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   font-family: $font-stack;
-  font-weight: normal;
-  color: $off-black;
+  font-weight: 600;
+  color: $primary-color-text;
 }
+
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+  font-family: $font-stack-headings;
+	font-weight: 600;
 	line-height: 1.3;
 }
 
