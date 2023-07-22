@@ -1,5 +1,3 @@
-import 'react';
-
 const Header = () => {
 
     return (
