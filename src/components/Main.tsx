@@ -11,9 +11,9 @@ const Main = () => {
 
     return (
         <main>
-            <div className="parallax-container">
+            <section className="parallax-container">
                 <div className="parallax"><img src={img1}></img></div>
-                <div className="content">
+                <div className="container content">
                     <h1>Welcome to My Parallax Website</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -22,9 +22,9 @@ const Main = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-            </div>
+            </section>
 
-            <div className="section">
+            <section className="container section">
                 <h2>About</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -32,15 +32,15 @@ const Main = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-            </div>
+            </section>
 
-            <div className="parallax-container">
+            <section className="parallax-container">
                 <div className="parallax"><img src={img1}></img></div>
-                <div className="content">
+                <div className="container content">
                     <h2>Products</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-            </div>
+            </section>
         </main>
     );
 
