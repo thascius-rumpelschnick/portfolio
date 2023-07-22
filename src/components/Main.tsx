@@ -306,7 +306,7 @@ const Main = () => {
                 <div className="row">
                     <div className="col s12">
                         <p>
-                            Auf Punk folgt die blumigen Triebe des kreativen Proletariats.
+                            Auf Punk folgen die blumigen Triebe des kreativen Proletariats.
                             <span className="lighter-text">
                                 Die Logo-Animation habe ich mit Blender und der Hilfe eines Freundes erstellt. Dabei wird der Name der
                                 Produktionsfirma als Text-Logo dargestellt. Die einzeln Buchstaben fliegen ins Bild hinein und setzen sich am Ende
