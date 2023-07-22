@@ -1,6 +1,6 @@
 # MD2 - Portfolio
 
-## Concept
+**Concept:**
 
 Module Mediendesign 2 at BHT summer term 2023 web portfolio.
 
@@ -48,5 +48,5 @@ Module Mediendesign 2 at BHT summer term 2023 web portfolio.
 
 ## Links
 
-[Google](https://bard.google.com/)
-[Apple](https://apple.com/de/)
+- [Google](https://bard.google.com/)
+- [Apple](https://apple.com/de/)
