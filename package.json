@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "inlined-build": "tsc && vite build --config vite.config.inlined.ts"
   },
   "dependencies": {
